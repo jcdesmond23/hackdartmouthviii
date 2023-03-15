@@ -1,0 +1,2 @@
+# HackDartmouthVIII
+HackDartmouth VIII website
