@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://rsms.me/inter/inter.css');
+@layer base {
+  html, body {
+    @apply scroll-smooth;
+  }
+}
