@@ -1,10 +1,12 @@
 import HomeSection from "./homeSection";
+import RegistrationSection from "./registrationSection";
 
 export default function Home() {
   return (
     <>
-      <div className="scroll-smooth">
+      <div>
         <HomeSection/>
+        <RegistrationSection/>
       </div>
     </>
   )

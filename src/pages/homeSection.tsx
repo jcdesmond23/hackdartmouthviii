@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomeSection() {
     return (
       <>
@@ -12,9 +14,11 @@ export default function HomeSection() {
                     </h1>
                 </div>
                 <div className="flex flex-row gap-14 mb-20">
-                    <button className="text-[#D9D9D9] text-2xl font-bold tracking-widest rounded-2xl border-[3px] border-[#D9D9D9] w-52 py-2 hover:text-black hover:bg-[#D9D9D9] hover:border-black">
-                        ABOUT
-                    </button>
+                    <Link href="#about">
+                        <button className="text-[#D9D9D9] text-2xl font-bold tracking-widest rounded-2xl border-[3px] border-[#D9D9D9] w-52 py-2 hover:text-black hover:bg-[#D9D9D9] hover:border-black">
+                            ABOUT
+                        </button>
+                    </Link>
                     <button className="text-[#D9D9D9] text-2xl font-bold tracking-widest rounded-2xl border-[3px] border-[#D9D9D9] w-52 py-2 hover:text-black hover:bg-[#D9D9D9] hover:border-black">
                         TRACKS
                     </button>
