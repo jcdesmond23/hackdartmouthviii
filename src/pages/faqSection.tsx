@@ -3,7 +3,7 @@ import Accordion from "@/components/accordion";
 export default function FaqSection() {
     return (
       <>
-        <div id="faq" className="bg-cover bg-[url('/Landing4.png')] h-[982px] overflow-hidden">
+        <div id="faq" className="h-[982px] overflow-hidden">
             <h1 className="px-24 py-10 font-black text-6xl text-[#EEE9D7] tracking-widest">
                 FAQ
             </h1>

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function HomeSection() {
     return (
       <>
-        <div className="bg-cover bg-[url('/Landing1.png')] h-[982px]">
+        <div className="h-[982px]">
             <div className="flex flex-col items-center justify-between h-full">
                 <div className="flex flex-col items-center">
                     <h3 className="text-2xl text-white font-semibold tracking-widest mt-[86px]">
