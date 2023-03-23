@@ -19,15 +19,21 @@ export default function HomeSection() {
                             {"ABOUT"}
                         </button>
                     </Link>
-                    <button className="text-[#D9D9D9] text-2xl font-bold tracking-widest rounded-2xl border-[3px] border-[#D9D9D9] w-52 py-2 hover:text-black hover:bg-[#D9D9D9] hover:border-black">
-                        {"TRACKS"}
-                    </button>
-                    <button className="text-[#D9D9D9] text-2xl font-bold tracking-widest rounded-2xl border-[3px] border-[#D9D9D9] w-52 py-2 hover:text-black hover:bg-[#D9D9D9] hover:border-black">
-                       {"FAQ"}
-                    </button>
-                    <button className="text-[#D9D9D9] text-2xl font-bold tracking-widest rounded-2xl border-[3px] border-[#D9D9D9] w-52 py-2 hover:text-black hover:bg-[#D9D9D9] hover:border-black">
-                        {"SPONSORS"}
-                    </button>
+                    <Link href="#tracks">
+                        <button className="text-[#D9D9D9] text-2xl font-bold tracking-widest rounded-2xl border-[3px] border-[#D9D9D9] w-52 py-2 hover:text-black hover:bg-[#D9D9D9] hover:border-black">
+                            {"TRACKS"}
+                        </button>
+                    </Link>
+                    <Link href="#faq">
+                        <button className="text-[#D9D9D9] text-2xl font-bold tracking-widest rounded-2xl border-[3px] border-[#D9D9D9] w-52 py-2 hover:text-black hover:bg-[#D9D9D9] hover:border-black">
+                        {"FAQ"}
+                        </button>
+                    </Link>
+                    <Link href="#sponsors">
+                        <button className="text-[#D9D9D9] text-2xl font-bold tracking-widest rounded-2xl border-[3px] border-[#D9D9D9] w-52 py-2 hover:text-black hover:bg-[#D9D9D9] hover:border-black">
+                            {"SPONSORS"}
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -9,9 +9,9 @@ export default function Accordion({title, content}:{title: string, content: stri
     };
 
     return (
-        <div className="bg-[#3B5BAD]/70 rounded-xl">
+        <div className="bg-[#3B5BAD]/70 rounded-xl w-fit">
           <button
-            className="flex justify-between items-center w-full px-4 py-3 text-left"
+            className="flex items-center px-4 py-3 text-left"
             onClick={handleClick}
           >
             <Caret
@@ -21,7 +21,7 @@ export default function Accordion({title, content}:{title: string, content: stri
             />
             <span className="font-medium text-[23px] text-[#EEE9D7]">{title}</span>
           </button>
-          <div className={`px-4 py-3 ${isActive ? 'block' : 'hidden'}`}>
+          <div className={`px-4 py-3 max-w-md ${isActive ? 'block' : 'hidden'}`}>
             <p className="text-[#EEE9D7]">{content}</p>
           </div>
         </div>
