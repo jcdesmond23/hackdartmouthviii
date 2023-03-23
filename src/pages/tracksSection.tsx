@@ -1,7 +1,7 @@
 export default function TracksSection() {
     return (
       <>
-        <div id="tracks" className="bg-cover bg-[url('/Landing3.png')] h-[982px]">
+        <div id="tracks" className="h-[982px]">
             <h1 className="pl-24 pt-10 font-black text-6xl text-[#EEE9D7] tracking-widest">
                 TRACKS
             </h1>

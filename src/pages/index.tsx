@@ -8,7 +8,7 @@ import TracksSection from "./tracksSection";
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="bg-cover bg-[url('/Background.png')] h-[4625px]">
         <HomeSection/>
         <RegistrationSection/>
         <TracksSection/>

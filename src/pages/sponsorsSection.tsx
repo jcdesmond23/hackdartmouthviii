@@ -1,7 +1,7 @@
 export default function SponsorsSection() {
     return (
       <>
-        <div id="sponsors" className="bg-cover bg-[url('/Landing5.png')] h-[514px]">
+        <div id="sponsors" className="h-[514px]">
             <h1 className="px-24 py-10 font-black text-6xl text-[#EEE9D7] tracking-widest">
                 SPONSORS
             </h1>

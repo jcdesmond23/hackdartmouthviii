@@ -1,7 +1,7 @@
 export default function RegistrationSection() {
     return (
       <>
-        <div id="about" className="bg-cover bg-[url('/Landing2.png')] h-[1165px]">
+        <div id="about" className="h-[982px]">
             <div className="flex flex-col h-full items-center justify-center">
                 <h2 className="text-white text-[40px] font-black tracking-wider">{"WELCOME TO"}</h2>
                 <h1 className="text-[50px] font-black tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-[#D6AB36] to-[#D138BE]">{"HACKDARTMOUTH VIII"}</h1>
