@@ -1,7 +1,7 @@
 export default function FooterSection() {
     return (
       <>
-        <div id="about" className="bg-cover bg-[url('/footer.png')] h-[125px]">
+        <div className="bg-cover bg-[url('/footer.png')] h-[125px]">
             <div className="flex flex-col h-full items-center justify-center">
                 <span className="text-[#D9D9D9] font-normal text-[23px] ">
                     {"Are you interested in sponsoring HackDartmouth?"}
