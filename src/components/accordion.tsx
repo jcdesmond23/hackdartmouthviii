@@ -9,7 +9,7 @@ export default function Accordion({title, content}:{title: string, content: stri
     };
 
     return (
-        <div className="bg-[#3B5BAD]/70 rounded-xl w-fit">
+        <div className="bg-[#3B5BAD]/70 rounded-xl w-fit" style={{marginBottom: 10}}>
           <button
             className="flex items-center px-4 py-3 text-left"
             onClick={handleClick}

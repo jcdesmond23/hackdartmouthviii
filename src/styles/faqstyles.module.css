@@ -1,0 +1,19 @@
+.container {
+  padding: 0 4rem;
+  margin: 3rem auto 1rem;
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  font-size: 0.9em;
+  padding: 0 2rem;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
