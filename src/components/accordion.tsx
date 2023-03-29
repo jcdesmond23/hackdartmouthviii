@@ -9,9 +9,9 @@ export default function Accordion({title, content}:{title: string, content: stri
     };
 
     return (
-        <div className="bg-[#3B5BAD]/70 rounded-xl w-fit" style={{marginBottom: 10}}>
+        <div className="bg-[#3B5BAD]/70 rounded-lg sm:rounded-xl w-fit" style={{marginBottom: 20}}>
           <button
-            className="flex items-center px-2 sm:px-4 py-2 sm:py-3 text-left"
+            className="flex items-center px-2 sm:px-6 py-2 sm:py-6 text-left"
             onClick={handleClick}
           >
             <Caret
