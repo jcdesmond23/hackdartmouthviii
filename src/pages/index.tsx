@@ -4,12 +4,11 @@ import HomeSection from "./homeSection";
 import RegistrationSection from "./registrationSection";
 import SponsorsSection from "./sponsorsSection";
 import TracksSection from "./tracksSection";
-import styles from "../styles/home.module.css";
 
 export default function Home() {
   return (
     <>
-      <div className={styles.cover}>
+      <div className="bg-[url('/BackgroundSM.png')] h-[2755px] sm:bg-[url('/Background.png')] sm:h-[4625px]">
         <HomeSection/>
         <RegistrationSection/>
         <TracksSection/>
