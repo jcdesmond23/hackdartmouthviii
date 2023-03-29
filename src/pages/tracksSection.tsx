@@ -10,7 +10,7 @@ export default function TracksSection() {
                     <div className="group w-[150px] sm:w-[220px] lg:w-[368px] h-[120px] sm:h-[190px] lg:h-[300px] [perspective:1000px]">
                         <div className="relative h-full w-full rounded-2xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
-                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/EDUCATION.png')] w-full h-full">
+                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/EDUCATION.png')] w-full h-full [backface-visibility:hidden]">
                                     <span className="text-[15px] sm:text-[20px] lg:text-[35px] text-[#EEE9D7] tracking-widest font-extrabold">EDUCATION</span>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@ export default function TracksSection() {
                     <div className="group w-[150px] sm:w-[220px] lg:w-[368px] h-[120px] sm:h-[190px] lg:h-[300px] [perspective:1000px]">
                         <div className="relative h-full w-full rounded-2xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
-                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/BLOCKCHAIN.png')] w-full h-full">
+                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/BLOCKCHAIN.png')] w-full h-full [backface-visibility:hidden]">
                                     <span className="text-[15px] sm:text-[20px] lg:text-[35px] text-[#EEE9D7] tracking-widest font-extrabold">BLOCKCHAIN</span>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ export default function TracksSection() {
                     <div className="group w-[150px] sm:w-[220px] lg:w-[368px] h-[120px] sm:h-[190px] lg:h-[300px] [perspective:1000px]">
                         <div className="relative h-full w-full rounded-2xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
-                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/GAMING.png')] w-full h-full">
+                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/GAMING.png')] w-full h-full [backface-visibility:hidden]">
                                     <span className="text-[15px] sm:text-[20px] lg:text-[35px] text-[#EEE9D7] tracking-widest font-extrabold">GAMING</span>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ export default function TracksSection() {
                     <div className="group w-[150px] sm:w-[220px] lg:w-[368px] h-[120px] sm:h-[190px] lg:h-[300px] [perspective:1000px]">
                         <div className="relative h-full w-full rounded-2xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
-                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/CLEANTECH.png')] w-full h-full">
+                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/CLEANTECH.png')] w-full h-full [backface-visibility:hidden]">
                                     <span className="text-[10px] sm:text-[20px] lg:text-[35px] text-[#EEE9D7] tracking-widest font-extrabold">CLEAN TECH</span>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ export default function TracksSection() {
                     <div className="group w-[150px] sm:w-[220px] lg:w-[368px] h-[120px] sm:h-[190px] lg:h-[300px] [perspective:1000px]">
                         <div className="relative h-full w-full rounded-2xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
-                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/HEALTHCARE.png')] w-full h-full">
+                                <div className="flex items-center flex-col justify-center bg-cover bg-[url('/HEALTHCARE.png')] w-full h-full [backface-visibility:hidden]">
                                     <span className="text-[15px] sm:text-[20px] lg:text-[35px] text-[#EEE9D7] tracking-widest font-extrabold">HEALTHCARE</span>
                                 </div>
                             </div>
