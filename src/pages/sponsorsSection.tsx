@@ -37,6 +37,9 @@ export default function SponsorsSection() {
                     <div className="flex mx-5 sm:mx-10 items-center justify-center h-24 sm:h-44 w-40 sm:w-80 bg-[#D9D9D9] rounded-xl">
                         <img src="/ventureForAmerica.png" className="cover p-2"/>
                     </div>
+                    <div className="flex mx-5 sm:mx-10 items-center justify-center h-24 sm:h-44 w-40 sm:w-80 bg-[#D9D9D9] rounded-xl">
+                        <img src="/contrary.png" className="cover p-2"/>
+                    </div>
                 </div>
                 <div className="absolute flex flex-row top-0 py-12 animate-scroll2 whitespace-nowrap">
                 <div className="flex mx-5 sm:mx-10 items-center justify-center h-24 sm:h-44 w-40 sm:w-80 bg-[#D9D9D9] rounded-xl">
@@ -68,6 +71,9 @@ export default function SponsorsSection() {
                     </div>
                     <div className="flex mx-5 sm:mx-10 items-center justify-center h-24 sm:h-44 w-40 sm:w-80 bg-[#D9D9D9] rounded-xl">
                         <img src="/ventureForAmerica.png" className="cover p-2"/>
+                    </div>
+                    <div className="flex mx-5 sm:mx-10 items-center justify-center h-24 sm:h-44 w-40 sm:w-80 bg-[#D9D9D9] rounded-xl">
+                        <img src="/contrary.png" className="cover p-2"/>
                     </div>
                 </div>
             </div>
